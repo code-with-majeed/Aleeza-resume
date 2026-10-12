@@ -6,8 +6,7 @@ export const profile = {
   phone: "+92 309 9749934",
   phoneHref: "tel:+923099749934",
   email: "aleezaqadeer8@gmail.com",
-  // TODO: replace with your real LinkedIn profile URL
-  linkedin: "https://www.linkedin.com/in/your-profile",
+  linkedin: "https://www.linkedin.com/in/aleeza-qadeer-4184043bb/",
   summary:
     "Detail-oriented QA professional with hands-on internship experience in manual software testing, test case design, and bug reporting. Skilled in Agile methodologies, test documentation, and basic test automation using Selenium and Python. Eager to bring strong analytical skills and a quality-first mindset to an entry-level QA / Software Tester role.",
   typed: ["Manual Testing", "Test Case Design", "Bug Reporting", "Agile & Scrum"],

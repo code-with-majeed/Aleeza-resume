@@ -10,10 +10,10 @@ const stats = [
 
 const Stats = () => (
   <section className="container-x py-10">
-    <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+    <div className="grid auto-rows-fr grid-cols-2 items-stretch gap-4 md:grid-cols-4">
       {stats.map((s, i) => (
-        <Reveal key={s.l} delay={i * 0.08}>
-          <div className="glass p-6 text-center">
+        <Reveal key={s.l} delay={i * 0.08} className="h-full">
+          <div className="glass flex h-full flex-col justify-center p-6 text-center">
             <div className="gradient-text font-display text-4xl font-bold">{s.v}</div>
             <div className="mt-2 text-xs uppercase tracking-wider text-slate-400">{s.l}</div>
           </div>
